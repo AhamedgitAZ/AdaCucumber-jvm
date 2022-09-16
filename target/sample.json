@@ -1,0 +1,288 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login using username and password",
+        "description": "",
+        "id": "login-in-to-adatin-hotel-application;login-using-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7592258400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launches the adactin url",
+            "match": {
+              "location": "LoginHotel.user_Launches_the_adactin_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 302567500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters the username and password",
+            "match": {
+              "location": "LoginHotel.user_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2721835000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click the login button",
+            "match": {
+              "location": "LoginHotel.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to search  hotel page",
+            "match": {
+              "location": "LoginHotel.user_navigates_to_search_hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login in to Adatin Hotel Application",
+    "description": "",
+    "id": "login-in-to-adatin-hotel-application",
+    "keyword": "Feature",
+    "uri": "D:/Bank/LastTry/src/test/resources/Features/Login.Feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Search Hotel based on user Needs",
+        "description": "",
+        "id": "search-hotel;search-hotel-based-on-user-needs",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 970436700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User enter all the mandatory fields",
+            "match": {
+              "location": "SearchHotel.user_enter_all_the_mandatory_fields()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 395459900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enters other fields if required",
+            "match": {
+              "location": "SearchHotel.user_enters_other_fields_if_required()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 671765700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User cliks the search button",
+            "match": {
+              "location": "SearchHotel.user_cliks_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 347100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to select Hotel page",
+            "match": {
+              "location": "SearchHotel.user_navigates_to_select_Hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Hotel",
+    "description": "",
+    "id": "search-hotel",
+    "keyword": "Feature",
+    "uri": "D:/Bank/LastTry/src/test/resources/Features/SearchHotel.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "User visibly verifies and select a hotel",
+        "description": "",
+        "id": "select-hotel;user-visibly-verifies-and-select-a-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76725100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User clicks select button",
+            "match": {
+              "location": "SelectHotel.user_clicks_select_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 694846800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User clicks continue button",
+            "match": {
+              "location": "SelectHotel.user_clicks_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigate to Book a Hotel page",
+            "match": {
+              "location": "SelectHotel.user_navigate_to_Book_a_Hotel_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Select Hotel",
+    "description": "",
+    "id": "select-hotel",
+    "keyword": "Feature",
+    "uri": "D:/Bank/LastTry/src/test/resources/Features/SelectHotel.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "User visibly verifies if all the details ae correct",
+        "description": "",
+        "id": "bookconfirmation;user-visibly-verifies-if-all-the-details-ae-correct",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@value\u003d\"Logout\"]\"}\n  (Session info: chrome\u003d105.0.5195.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027NAWAZ\u0027, ip: \u0027192.168.43.4\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_202\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\\Users\\Nawaz\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59928}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0dc027a46afba5bd9b97c64709f396a7\n*** Element info: {Using\u003dxpath, value\u003d//input[@value\u003d\"Logout\"]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.click(Unknown Source)\r\n\tat org.Base.BaseClass.buttonClick(BaseClass.java:32)\r\n\tat org.steps.ConfirmHotel.user_click_the_logout_bbutton(ConfirmHotel.java:18)\r\n\tat ✽.User click the logout bbutton(D:/Bank/LastTry/src/test/resources/Features/ZZZconfirm.feature:3)\r\n",
+              "duration": 20061968300,
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "User click the logout bbutton",
+            "match": {
+              "location": "ConfirmHotel.user_click_the_logout_bbutton()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "BookConfirmation",
+    "description": "",
+    "id": "bookconfirmation",
+    "keyword": "Feature",
+    "uri": "D:/Bank/LastTry/src/test/resources/Features/ZZZconfirm.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Book Hotel using user personal details",
+        "description": "",
+        "id": "book-hotel;book-hotel-using-user-personal-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6572200200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User enter all the fields mrked with asterix",
+            "match": {
+              "location": "BookHotel.user_enter_all_the_fields_mrked_with_asterix()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 103455500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User clicks book now button",
+            "match": {
+              "location": "BookHotel.user_clicks_book_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Navigates to Booking confirmation Page",
+            "match": {
+              "location": "BookHotel.user_Navigates_to_Booking_confirmation_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Book Hotel",
+    "description": "",
+    "id": "book-hotel",
+    "keyword": "Feature",
+    "uri": "D:/Bank/LastTry/src/test/resources/Features/ZzBOOK.feature",
+    "tags": []
+  }
+]
